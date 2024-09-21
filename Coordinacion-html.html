@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Control de Coordinación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Panel de Control de Coordinación</h1>
+    
+    <!-- Tabs List -->
+    <div class="tabs">
+      <button class="tab-button active" data-tab="coordinador-tde">Coordinador TDE</button>
+      <button class="tab-button" data-tab="coordinador-cima">Coordinador CIMA</button>
+      <button class="tab-button" data-tab="coordinador-equidad">Coordinador Más Equidad</button>
+      <button class="tab-button" data-tab="coordinador-formacion">Coordinador de Formación</button>
+    </div>
+
+    <!-- Tab Content: Coordinador TDE -->
+    <div class="tab-content active" id="coordinador-tde">
+      <div class="card">
+        <h2>Coordinador TDE</h2>
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="1">
+          <label>Realizar diagnóstico CDD del claustro - Plazo: 30 de septiembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="1">
+        
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="2">
+          <label>Actualizar Rúbrica TDE en Séneca - Plazo: 15 de octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="2">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="3">
+          <label>Actualizar Plan de Actuación Digital (PAD) - Plazo: 15 de noviembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="3">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="4">
+          <label>Inscribir profesores en Séneca - Plazo: 15 de octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="4">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="5">
+          <label>Coordinar formación en competencia digital - Plazo: Continuo</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="5">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador TDE" data-id="6">
+          <label>Evaluar desempeño para certificación - Plazo: Junio 2025</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador TDE" data-id="6">
+      </div>
+    </div>
+
+    <!-- Tab Content: Coordinador CIMA -->
+    <div class="tab-content" id="coordinador-cima">
+      <div class="card">
+        <h2>Coordinador CIMA</h2>
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador CIMA" data-id="7">
+          <label>Elaborar Plan de Actuación CIMA - Plazo: 1-15 noviembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador CIMA" data-id="7">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador CIMA" data-id="8">
+          <label>Registrar Plan en Séneca - Plazo: 1-15 noviembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador CIMA" data-id="8">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador CIMA" data-id="9">
+          <label>Coordinar equipo CIMA - Plazo: Continuo</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador CIMA" data-id="9">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador CIMA" data-id="10">
+          <label>Realizar autoevaluación del programa - Plazo: Final del curso</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador CIMA" data-id="10">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador CIMA" data-id="11">
+          <label>Gestionar certificación del profesorado - Plazo: Final del curso</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador CIMA" data-id="11">
+      </div>
+    </div>
+
+    <!-- Tab Content: Coordinador Más Equidad -->
+    <div class="tab-content" id="coordinador-equidad">
+      <div class="card">
+        <h2>Coordinador Más Equidad</h2>
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador Más Equidad" data-id="12">
+          <label>Presentar solicitud y proyecto - Plazo: 30 de septiembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador Más Equidad" data-id="12">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador Más Equidad" data-id="13">
+          <label>Período de alegaciones (si necesario) - Plazo: 14-17 octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador Más Equidad" data-id="13">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador Más Equidad" data-id="14">
+          <label>Inicio del desarrollo del programa - Plazo: 28 de octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador Más Equidad" data-id="14">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador Más Equidad" data-id="15">
+          <label>Finalización del programa - Plazo: 20 de junio 2025</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador Más Equidad" data-id="15">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador Más Equidad" data-id="16">
+          <label>Entrega de memorias pedagógicas y económicas - Plazo: 30 de junio 2025</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador Más Equidad" data-id="16">
+      </div>
+    </div>
+
+    <!-- Tab Content: Coordinador de Formación -->
+    <div class="tab-content" id="coordinador-formacion">
+      <div class="card">
+        <h2>Coordinador de Formación</h2>
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador de Formación" data-id="17">
+          <label>Detección de necesidades formativas - Plazo: Antes del 15 de octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador de Formación" data-id="17">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador de Formación" data-id="18">
+          <label>Elaboración del Plan de Formación - Plazo: 31 de octubre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador de Formación" data-id="18">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador de Formación" data-id="19">
+          <label>Registro del Plan en Séneca - Plazo: 1-15 noviembre 2024</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador de Formación" data-id="19">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador de Formación" data-id="20">
+          <label>Desarrollo del Plan de Formación - Plazo: Continuo</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador de Formación" data-id="20">
+
+        <div class="task">
+          <input type="checkbox" class="checkbox" data-programa="Coordinador de Formación" data-id="21">
+          <label>Evaluación del Plan de Formación - Plazo: Final del curso</label>
+        </div>
+        <input type="text" class="input" placeholder="Observaciones" data-programa="Coordinador de Formación" data-id="21">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
