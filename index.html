@@ -172,22 +172,6 @@
   </div>
 
   <script src="script.js"></script>
-<script>
-function obtenerDatos() {
-  fetch('https://script.google.com/a/macros/g.educaand.es/s/AKfycbzUjUu-2Gs2JykXsAJ-dQVlDuNrpzrgSJBQFB0XMAF-ifRRzy8Umgco4YV1a1lDeQeg/exec')
-    .then(response => response.json())
-    .then(data => {
-      console.log('Datos obtenidos:', data);
-      // Aquí puedes procesar y mostrar los datos en tu página
-    })
-    .catch(error => console.error('Error al obtener datos:', error));
-}
-
-// Llamar a la función cuando la página se cargue
-window.onload = function() {
-  obtenerDatos();
-};
-</script>
 
 </body>
 </html>
